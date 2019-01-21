@@ -7,9 +7,12 @@ import { BrowserRouter, NavLink } from 'react-router-dom';
 class App extends Component {
   render() {
     return (
-      <BrowserRouter>
+      <div className="App-header">
+        <h1>Yihaaa</h1>
+      </div>
+      /*<BrowserRouter>
           <Dashboard />
-      </BrowserRouter>
+      </BrowserRouter>*/
     );
   }
 }
