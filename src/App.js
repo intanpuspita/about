@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
 import { Route } from 'react-router-dom';
 import logo from './logo.svg';
-import './App.css';
+import './style/App.css';
 import { BrowserRouter, NavLink } from 'react-router-dom';
 
 class App extends Component {
   render() {
     return (
-      <div className="App-header">
-        <h1>Yihaaa</h1>
+      <div className="big-header">
+        <h1>Intan says "Hi"</h1>
       </div>
       /*<BrowserRouter>
           <Dashboard />
