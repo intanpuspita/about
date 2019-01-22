@@ -2,13 +2,24 @@ import React, { Component } from 'react';
 import { Route } from 'react-router-dom';
 import logo from './logo.svg';
 import './style/App.css';
-import { BrowserRouter, NavLink } from 'react-router-dom';
+// import { BrowserRouter, NavLink } from 'react-router-dom';
 
 class App extends Component {
   render() {
     return (
-      <div className="big-header">
-        <h1>Intan says "Hi"</h1>
+      <div>
+        <div className="big-header">
+          <div className="label"></div>
+        </div>
+        <div>
+          <p>BLABLABLA</p>
+          <p>BLABLABLA</p>
+          <p>BLABLABLA</p>
+          <p>BLABLABLA</p><p>BLABLABLA</p>
+          <p>BLABLABLA</p>
+          <p>BLABLABLA</p>
+          <p>BLABLABLA</p>
+        </div>
       </div>
       /*<BrowserRouter>
           <Dashboard />
@@ -18,7 +29,7 @@ class App extends Component {
 }
 
 // This is what you really care about
-class Dashboard extends React.Component {
+/*class Dashboard extends React.Component {
   render() {
       return (
           <div id="dashboard">
@@ -62,6 +73,6 @@ class Marketing extends React.Component {
   render() {
       return <h1>This is the Marketing Panel</h1>;
   }
-}
+}*/
 
 export default App;
