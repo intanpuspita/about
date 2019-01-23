@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import { Route } from 'react-router-dom';
-import logo from './logo.svg';
+// import { Route } from 'react-router-dom';
 import './style/App.css';
 // import { BrowserRouter, NavLink } from 'react-router-dom';
 
@@ -11,14 +10,8 @@ class App extends Component {
         <div className="big-header">
           <div className="label"></div>
         </div>
-        <div>
-          <p>BLABLABLA</p>
-          <p>BLABLABLA</p>
-          <p>BLABLABLA</p>
-          <p>BLABLABLA</p><p>BLABLABLA</p>
-          <p>BLABLABLA</p>
-          <p>BLABLABLA</p>
-          <p>BLABLABLA</p>
+        <div className="profile">
+          <div className="photo"></div>
         </div>
       </div>
       /*<BrowserRouter>
